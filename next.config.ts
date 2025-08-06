@@ -1,11 +1,10 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  experimental: {
-    appDir: true,
-  },
-  // Tell Next.js to look for pages/app directory inside the 'src' folder
-  // This is often needed when using a custom source directory
+  // Remove the 'experimental' block entirely
+  // experimental: {
+  //   appDir: true,
+  // },
   distDir: '.next',
   webpack(config) {
     config.resolve.alias = {
@@ -17,5 +16,3 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
-
-
