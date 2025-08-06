@@ -28,7 +28,7 @@ export const Typography: React.FC<TypographyProps> = ({
     caption: 'text-sm',
   };
 
-  const Component = variant.startsWith('h') ? variant as keyof JSX.IntrinsicElements : 'p';
+  const Component = variant.startsWith('h') ? variant as keyof React.JSX.IntrinsicElements : 'p';
 
   return (
     <Component className={`${variantClasses[variant]} ${colorClasses[color]} ${className}`}>
