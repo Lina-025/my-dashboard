@@ -73,9 +73,6 @@ Uses mock data inspired by the Kaggle Chocolate Sales Dataset:
 * Build: `npm run build` → `npm run start`
 * Hosts: Vercel, Netlify, Docker, or traditional hosting.
 
-## License
-
-MIT License – see LICENSE file.
 
 ## Contributing
 
